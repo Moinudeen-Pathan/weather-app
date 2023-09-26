@@ -1,0 +1,52 @@
+.main {
+    width: 80vw;
+    height: 100vh;
+    
+}
+
+.head {
+    flex-direction: column-reverse;
+
+}
+
+.head-search {
+    width: 50vw;
+}
+
+.head-text {
+    margin-top: 1.75rem;
+    align-self: flex-start;
+    margin-left: 1.55rem;
+}
+
+
+.footer {
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+}
+.fti1,
+.fti2,
+.fti3,
+.fti4{
+    width: 50%;
+}
+
+.middle-part{
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1rem;
+    /* margin-left: 1.55rem; */
+}
+.display-details , h2{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+    padding-left: 1.5rem;
+    
+}
+.display-details > p {
+    width: 50%;
+}
